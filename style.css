@@ -1,0 +1,56 @@
+html {
+    background-image: url(background.gif);
+    padding: .5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pure-button {
+    background-color: #26a668;
+    color: white;
+    font-size: 2vw;
+    opacity: .85;
+    border-radius: .5vw;
+}
+
+.musicList {
+    width: 70%;
+    height: 40vw;
+    background-color: rgba(54, 54, 54, 0.8);
+    margin-top: 3.5vw;
+    border: solid .3vw rgba(0, 0, 0, 0.85);
+    border-radius: 1.5vw;
+}
+
+#song {
+    width: 90%;
+    height: 10vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    background-color: rgba(23, 23, 23, 1);
+    border: solid .3vw rgba(0, 0, 0, 1);
+}
+
+#songDescription {
+    color: white;
+    float: left;
+    font-size: 1.25vw;
+    margin-left: 1vw;
+}
+
+#button {
+    width: 4vw;
+    height: auto;
+    background-color: #26a668;
+    border-radius: 2vw;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#playBTN {
+    width: 5vw;
+    height: 5vw;
+    border-radius: 2.5vw;
+}
